@@ -1,0 +1,21 @@
+{
+    "rnd_seed": 42,
+    "device": "cuda",
+    "work_dir": "stress_predictor/work_dir/",
+
+    "train_csv": "data/stress_predictor/train.csv",
+    "b_size": 64,
+    "shuffle_train": true,
+    "shuffle_val": false,
+    "train_val_proportions": [0.85, 0.15],
+    "num_lets": 33,
+
+    "embed_dim": 64,
+    "num_heads": 8,
+    "drop_out": 0.05,
+    "hidden_dims": [640, 320, 160],
+
+    "lr": 0.0001,
+    "epochs": 200,
+    "weight_decay": 0.0001
+}
